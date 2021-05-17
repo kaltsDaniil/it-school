@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="https://use.fontawesome.com/f4e8555334.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <title>It school</title>
+</head>
+<body>
+<div class="back-to-top" onclick="toTop()">&uarr;</div>
+<nav class="nav">
+    <div class="nav-wrapper">
+        <img src="./logo/logo.svg" alt="logo" class="nav-logo">
+        <ul class="nav-ul">
+            <li><a href="#banner" class="nav-link">Главная</a></li>
+            <li><a href="#start" class="nav-link">Курсы</a></li>
+            <li><a href="#program" class="nav-link">Расписание</a></li>
+            <li><a href="#teachers" class="nav-link">Преподаватели</a></li>
+            <li><a href="#footer" class="nav-link">Рассылка</a></li>
+            <li><a href="#footer" class="nav-link">Контакты</a></li>
+        </ul>
+        <div class="nav-button__body">
+            <button class="nav-button">Зайти в кабинет</button>
+        </div>
+        <div class="nav-burger">
+            <div class="nav-burger__line"></div>
+            <div class="nav-burger__line"></div>
+            <div class="nav-burger__line"></div>
+        </div>
+    </div>
+</nav>
+<div class="banner" id="banner">
+    <div class="banner-body">
+        <div class="banner-wrapper">
+            <div class="banner-info">
+                <h1 class="banner-title">Первый курс <br> по компьютерной сборке</h1>
+                <div class="banner-dates">
+                    <div class="banner-date">
+                        <h3 class="banner-num">18</h3>
+                        <p>дней</p> 
+                    </div>
+                    <div class="banner-date">
+                        <h3 class="banner-num">18</h3>
+                        <p>часов</p>
+                    </div>
+                    <div class="banner-date">
+                        <h3 class="banner-num">18</h3>
+                        <p>минут</p>
+                    </div>
+                    <div class="banner-date">
+                        <h3 class="banner-num">18</h3>
+                        <p>секунд</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="banner-footer">
+            <a href="#footer" class="banner-footer__btn">Заказать курс</a>
+            <div class="banner-footer__info">
+                <div>
+                    <p>Учеников всего:</p>
+                    <p class="banner-footer__count">200</p>
+                </div>
+                <div>
+                    <p>Успешно закончили курс:</p>
+                    <p class="banner-footer__count">190</p>
+                </div>
+            </div>
+            <div class="banner-statistics">
+                <div class="banner-statistics__wrapper">
+                    <div class="banner-statistics__sum">
+                        <p>Заработано учениками:</p>
+                        <h4>400 000₽</h4>
+                    </div>
+                    <div class="banner-statistics__col">
+                        <p>0</p>
+                        <p>1 000 000₽</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="about" id="about">
+    <div class="about-wrapper">
+        <img src="/background/about__img.svg" alt="abount-img" class="about-image">
+        <div class="about-info">
+            <h4 class="about-title">Чем мы занимаемся?</h4>
+            <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget neque, dignissim et feugiat elit augue in suspendisse egestas. Dictum vestibulum mi et sed nunc, orci fermentum vestibulum, morbi. Et neque, adipiscing sapien sem senectus praesent aenean consequat. Aenean facilisi turpis aliquet fringilla. Nunc sem felis sed interdum feugiat mattis elit, sollicitudin. Quam pharetra rhoncus risus, cursus id elementum aliquet. Nullam turpis arcu malesuada arcu interdum placerat nisi, lobortis. </p>
+        </div>
+    </div>
+</section>
+<section class="start" id="start">
+    <div class="start-body">
+        <div class="start-logo"></div>
+        <h4 class="start-title">Быстрый старт</h4>
+    </div>
+    <p class="start-text">Больше 90% учеников прошли полный курс и смогли собрать свой первый компьютер</p>
+    <div class="start-wrapper">
+        <div class="start-card">
+            <h5 class="start-card__title">100%</h5>
+            <p class="start-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.</p>
+        </div>
+        <div class="start-card">
+            <h5 class="start-card__title">75%</h5>
+            <p class="start-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.</p>
+        </div>
+        <div class="start-card">
+            <h5 class="start-card__title">50%</h5>
+            <p class="start-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.</p>
+        </div>
+        <div class="start-card">
+            <h5 class="start-card__title">Итог</h5>
+            <p class="start-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.</p>
+        </div>
+    </div>
+</section>
+<section class="advantages" id="advantages">
+    <h3 class="advantages-title">Получите профессию прямо сейчас</h3>
+    <div class="advantages-wrapper">
+        <div class="advantages-card">
+            <img src="/logo/icon-1.svg" alt="logo" class="advantages-card__img">
+            <h5 class="advantages-card__title">Только практические навыки в работе</h5>
+            <p class="advantages-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.</p>
+        </div>
+        <div class="advantages-card">
+            <img src="/logo/icon-2.svg" alt="logo" class="advantages-card__img">
+            <h5 class="advantages-card__title">Работа на самом современном оборудовании</h5>
+            <p class="advantages-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.</p>
+        </div>
+        <div class="advantages-card">
+            <img src="/logo/icon-3.svg" alt="logo" class="advantages-card__img">
+            <h5 class="advantages-card__title">Сертификация по окончании обучения</h5>
+            <p class="advantages-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.</p>
+        </div>
+    </div>
+</section>
+<section class="partners" id="partners">
+    <div class="partners-body">
+        <div class="partners-logo"></div>
+        <h4 class="partners-title">Партнеры - топовые бренды</h4>
+    </div>
+    <div class="partners-wrapper">
+        <div class="partners-card">
+            <img src="/logo/logo 2.svg" alt="logo">
+        </div>
+        <div class="partners-card">
+            <img src="/logo/logo 2.svg" alt="logo">
+        </div>
+        <div class="partners-card">
+            <img src="/logo/logo 2.svg" alt="logo">
+        </div>
+        <div class="partners-card">
+            <img src="/logo/logo 2.svg" alt="logo">
+        </div>
+        <div class="partners-card">
+            <img src="/logo/logo 2.svg" alt="logo">
+        </div>
+        <div class="partners-card">
+            <img src="/logo/logo 2.svg" alt="logo">
+        </div>
+        <div class="partners-card">
+            <img src="/logo/logo 2.svg" alt="logo">
+        </div>
+        <div class="partners-card">
+            <img src="/logo/logo 2.svg" alt="logo">
+        </div>
+    </div>
+</section>
+<section class="program" id="program">
+    <div class="program-body">
+        <div class="program-logo"></div>
+        <h4 class="program-title">Программа обучения</h4>
+    </div>
+    <p class="program-text">Больше 90% учеников прошли полный курс и смогли собрать свой первый компьютер</p>
+    <div class="program-wrapper">
+        <div class="program-parts">
+            <div class="program-part">
+                <p class="program-part__title">Неделя №1</p>
+                <p class="program-part__info">Красивая часть курса, <br> которая помогает в успехе</p>
+            </div>
+            <div class="program-part">
+                <p class="program-part__title">Неделя №3</p>
+                <p class="program-part__info">Красивая часть курса, <br> которая помогает в успехе</p>
+            </div>
+            <div class="program-part">
+                <p class="program-part__title">Неделя №5</p>
+                <p class="program-part__info">Красивая часть курса, <br> которая помогает в успехе</p>
+            </div>
+            <div class="program-part">
+                <p class="program-part__title">Неделя №7</p>
+                <p class="program-part__info">Красивая часть курса, <br> которая помогает в успехе</p>
+            </div>
+        </div>
+        <div class="program-parts">
+            <div class="program-part">
+                <p class="program-part__title left">Неделя №2</p>
+                <p class="program-part__info left">Красивая часть курса, <br> которая помогает в успехе</p>
+            </div>
+            <div class="program-part">
+                <p class="program-part__title left">Неделя №4</p>
+                <p class="program-part__info left">Красивая часть курса, <br> которая помогает в успехе</p>
+            </div>
+            <div class="program-part">
+                <p class="program-part__title left">Неделя №6</p>
+                <p class="program-part__info left">Красивая часть курса, <br> которая помогает в успехе</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="teachers" id="teachers">
+    <div class="teachers-body">
+        <div class="teachers-logo"></div>
+        <h4 class="teachers-title">Ваши преподаватели</h4>
+    </div>
+    <div class="teachers-swiper swiper-container mySwiper">
+        <div class="teachers-cards swiper-wrapper">
+            <div class="teachers-card swiper-slide">
+                <img src="/logo/teacher 1.svg" alt="teacher" class="teachers-card__img">
+                <h6 class="teachers-name">Дмитрий Иванов</h6>
+                <p class="teachers-info">Специалист по видеокартам</p>
+                <button class="teachers-button">Биография</button>
+            </div>
+            <div class="teachers-card swiper-slide">
+                <img src="/logo/teacher 2.svg" alt="teacher" class="teachers-card__img">
+                <h6 class="teachers-name">Дмитрий Скрытников</h6>
+                <p class="teachers-info">Специалист по видеокартам</p>
+                <button class="teachers-button">Биография</button>
+            </div>
+            <div class="teachers-card swiper-slide">
+                <img src="/logo/teacher 3.svg" alt="teacher" class="teachers-card__img">
+                <h6 class="teachers-name">Дмитрий Минин</h6>
+                <p class="teachers-info">Специалист по видеокартам</p>
+                <button class="teachers-button">Биография</button>
+            </div>
+            <div class="teachers-card swiper-slide">
+                <img src="/logo/teacher 1.svg" alt="teacher" class="teachers-card__img">
+                <h6 class="teachers-name">Дмитрий Иванов</h6>
+                <p class="teachers-info">Специалист по видеокартам</p>
+                <button class="teachers-button">Биография</button>
+            </div>
+            <div class="teachers-card swiper-slide">
+                <img src="/logo/teacher 2.svg" alt="teacher" class="teachers-card__img">
+                <h6 class="teachers-name">Дмитрий Скрытников</h6>
+                <p class="teachers-info">Специалист по видеокартам</p>
+                <button class="teachers-button">Биография</button>
+            </div>
+            <div class="teachers-card swiper-slide">
+                <img src="/logo/teacher 3.svg" alt="teacher" class="teachers-card__img">
+                <h6 class="teachers-name">Дмитрий Минин</h6>
+                <p class="teachers-info">Специалист по видеокартам</p>
+                <button class="teachers-button">Биография</button>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="footer" id="footer">
+    <h4 class="footer-title">Статьи каждую неделю</h4>
+    <p class="footer-text">Больше 90% учеников прошли полный курс и смогли собрать свой первый компьютер</p>
+    <div class="footer-form">
+        <input type="text" placeholder="E-mail">
+        <button class="footer-button">Подписаться</button>
+    </div>
+    <div class="footer-socials">
+        <div class="footer-social">
+            <a href="https://vk.com/" target="_blank"> <img src="/logo/vk.svg" alt="vk"></a>
+        </div>
+        <div class="footer-social">
+            <a href="https://www.youtube.com/?gl=KZ" target="_blank"><img src="/logo/youtube.svg" alt="youtube"></a>
+        </div>
+        <div class="footer-social">
+            <a href="https://www.facebook.com/" target="_blank"><img src="/logo/facebook.svg" alt="facebook"></a>
+        </div>
+        <div class="footer-social">
+            <a href="https://www.instagram.com/daniil_frontend/" target="_blank"><img src="/logo/instagram.svg" alt="instagram"></a>
+        </div>
+    </div>
+</div>
+<div class="popup">
+    <div class="popup-body">
+        <span class="popup-close">&#10006;</span>
+        <img alt="teacher" class="popup-img">
+        <h5 class="popup-name">Дмитрий Иванов</h5>
+        <p class="popup-info">Специалист по видеокартам</p>
+        <p class="popup-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, accusamus mollitia beatae maiores quos nihil voluptas labore, corporis inventore animi voluptatum vel a sint autem. Explicabo minima unde debitis facere!</p>
+    </div>
+</div>
+<script src="/script.js"></script>
+
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    if(document.documentElement.clientWidth > 400){
+        var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        });
+    }else{
+        var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    }
+  </script>
+  <script>
+      const anchors = document.querySelectorAll('a[href*="#"]')
+
+for (let anchor of anchors) {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault()
+    
+    const blockID = anchor.getAttribute('href').substr(1)
+    
+    document.getElementById(blockID).scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
+    })
+  })
+}
+  </script>
+</body>
+</html>
